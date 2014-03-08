@@ -58,3 +58,4 @@ github "xquartz",     "1.1.1"
 # https://github.com/boxen.
 
 github "vagrant",     "3.0.5"
+github "packer",      "1.1.0"
