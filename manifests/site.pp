@@ -58,11 +58,35 @@ node default {
   include hub
   include nginx
 
+  # virtualbox
+  include virtualbox
+
   # vagrant
   include vagrant
 
   # packer
   include packer
+
+  # iterm2
+  include iterm2::stable
+
+  # 1password
+  include onepassword
+
+  # dropbox
+  include dropbox
+
+  # tunnelblick
+  include tunnelblick
+
+  # macvim
+  include macvim
+
+  # skitch
+  include skitch
+
+  # gitx
+  include gitx
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
