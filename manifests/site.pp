@@ -101,9 +101,9 @@ node default {
   }
 
   # node versions
-  include nodejs::v0_6
-  include nodejs::v0_8
-  include nodejs::v0_10
+  #include nodejs::v0_6
+  #include nodejs::v0_8
+  #include nodejs::v0_10
 
   # default ruby versions
   ruby::version { '1.9.3': }
