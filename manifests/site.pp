@@ -63,7 +63,6 @@ node default {
 
   # vagrant
   include vagrant
-  vagrant::plugin { 'vagrant-screenshot': }
 
   # packer
   include packer
